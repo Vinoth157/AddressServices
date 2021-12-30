@@ -7,7 +7,7 @@ spring:
     password: vinoth
     driver-class-name: org.postgresql.Driver
     username: postgres
-    url: jdbc:postgresql://localhost:5432/postgres?createDatabaseIfNotExist=true
+    url: jdbc:postgresql://postgresqldb:5432/postgres?createDatabaseIfNotExist=true
   jpa:
     properties:
       hibernate:
